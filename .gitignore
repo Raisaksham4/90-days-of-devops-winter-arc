@@ -1,0 +1,16 @@
+# Environment files and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.log
+__pycache__/
+
