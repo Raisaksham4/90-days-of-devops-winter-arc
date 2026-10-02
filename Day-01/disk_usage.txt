@@ -1,0 +1,19 @@
+Displaying Disk Usage Using du -h command with depth -1
+83M	./projects
+280K	./.dotnet
+40K	./.aws
+12K	./.terraform.d
+236K	./90-days-of-devops-winter-arc
+20K	./.ssh
+1.7G	./terraform
+52K	./.vscode-remote-containers
+1.5M	./learn-docker
+1.9G	./.vscode-server
+273M	./.local
+40K	./.config
+20M	./.cache
+200K	./.docker
+4.0K	./.landscape
+44K	./.copilot
+592K	./bash-scripting-for-DevOps
+3.9G	.

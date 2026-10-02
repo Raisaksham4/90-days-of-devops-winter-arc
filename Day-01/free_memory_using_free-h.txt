@@ -1,0 +1,4 @@
+Display free memory using the free -h command--- 
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       2.0Gi       4.7Gi       3.7Mi       1.0Gi       5.6Gi
+Swap:          2.0Gi          0B       2.0Gi

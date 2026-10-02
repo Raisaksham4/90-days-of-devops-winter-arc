@@ -1,0 +1,84 @@
+Ispecting running processes using ps with filters ---
+USER         PID STAT COMMAND
+root           1 Ss   /sbin/init
+root           2 Sl+  /init
+root           7 Sl+  plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          50 S<s  /usr/lib/systemd/systemd-journald
+systemd+      87 Ss   /usr/lib/systemd/systemd-resolved
+root          95 Ss   /usr/lib/systemd/systemd-udevd
+root         117 Ss   /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         118 Ss   /usr/sbin/cron -f -P
+message+     119 Ss   @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         149 Ss   /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         176 Ss   /usr/lib/systemd/systemd-logind
+syslog       223 Ssl  /usr/sbin/rsyslogd -n -iNONE
+root         261 Ss+  /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+root         270 Ssl  /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         273 Ssl  /usr/bin/containerd
+_chrony      286 S    /usr/sbin/chronyd -n -F 1 -x
+_chrony      300 S    /usr/sbin/chronyd -n -F 1 -x
+mysql        386 Ssl  /usr/sbin/mysqld
+root         429 Ssl  /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         742 Ss   login -- saksham
+saksham      809 Ss   /usr/lib/systemd/systemd --user
+saksham      811 S    (sd-pam)
+saksham      838 Ss+  -bash
+polkitd    24099 Ssl  /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root      376718 Ss   /init
+root      376719 S    /init
+saksham   376724 Ss   -bash
+root      394401 S    su root
+root      394407 Ss   /usr/lib/systemd/systemd --user
+root      394409 S    (sd-pam)
+root      394435 S    bash
+root      394460 S    su saksham
+saksham   394462 S    bash
+root      395568 Ss   /init
+root      395569 S    /init
+saksham   395576 Ss+  -bash
+root      395783 Ss   /init
+root      395784 S    /init
+saksham   395785 Ss+  sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" 07f806f999227108933c2e30515b26eecc1fda74 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=533034033-3391224748-2998416203-1113375681 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+saksham   395786 S+   sh /mnt/c/Users/raisa/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3/scripts/wslServer.sh 07f806f999227108933c2e30515b26eecc1fda74 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=533034033-3391224748-2998416203-1113375681 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+saksham   395792 S+   sh /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/bin/code-server --host=127.0.0.1 --port=0 --connection-token=533034033-3391224748-2998416203-1113375681 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+saksham   395796 Sl+  /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=533034033-3391224748-2998416203-1113375681 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root      395808 Ss   /init
+root      395809 S    /init
+saksham   395810 Ssl+ /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42623 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root      395823 Ss   /init
+root      395824 S    /init
+saksham   395825 Ssl+ /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42623 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+saksham   395841 Sl+  /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/out/bootstrap-fork --type=fileWatcher
+saksham   395860 Sl+  /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/out/bootstrap-fork --type=agentHost --logsPath /home/saksham/.vscode-server/data/logs/20261002T123510 --user-data-dir /home/saksham/.vscode-server/data --telemetry-level all
+saksham   395881 Sl+  /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node --dns-result-order=ipv4first /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+saksham   395900 Sl+  /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=395881
+saksham   395907 Sl+  /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime --headless --no-auto-update --log-level info --stdio --no-auto-login
+root      395942 Ss   /init
+root      395943 S    /init
+saksham   395947 Ss+  /bin/sh -c cd '/' && /bin/sh
+saksham   395951 S+   /bin/sh
+saksham   395961 Sl+  /home/saksham/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node /home/saksham/.vscode-remote-containers/dist/vscode-remote-containers-server-0.469.0.js
+saksham   395997 S+   /bin/sh
+root      399245 S+   sudo -i
+root      399247 Ss   sudo -i
+root      399248 S    -bash
+root      400265 Ss   tmux
+root      400266 Ss+  -bash
+root      401861 Ss   nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data  401862 S    nginx: worker process
+www-data  401863 S    nginx: worker process
+www-data  401864 S    nginx: worker process
+www-data  401865 S    nginx: worker process
+www-data  401866 S    nginx: worker process
+www-data  401868 S    nginx: worker process
+www-data  401869 S    nginx: worker process
+www-data  401870 S    nginx: worker process
+www-data  401871 S    nginx: worker process
+www-data  401872 S    nginx: worker process
+www-data  401873 S    nginx: worker process
+www-data  401874 S    nginx: worker process
+root      430270 S    su saksham
+saksham   430272 S    bash
+root      434839 S    (udev-worker)
+root      434840 S    (udev-worker)
+saksham   434847 R+   ps a -eo user,pid,stat,command

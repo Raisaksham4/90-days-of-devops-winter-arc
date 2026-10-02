@@ -51,7 +51,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
-| 1 | Linux foundations | In progress | [Day-01](./Day-01/) |
+| 1 | Linux foundations | Completed | [Day-01](./Day-01/) |
 
 ## Working Principles
 

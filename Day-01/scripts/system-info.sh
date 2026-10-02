@@ -22,3 +22,10 @@ echo
 echo "System Uptime:"
 uptime
 
+echo
+echo "Present Working Dir"
+pwd
+
+echo
+echo
+
