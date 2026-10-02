@@ -168,6 +168,7 @@ bash scripts/system-info.sh
 ## Key Learnings
 
 - Linux uses a hierarchical filesystem.
+- Key directories such as `/var`, `/lib`, `/bin`, `/proc`, `/etc`, `/mnt`, `/usr`, and `/sys` have distinct system roles.
 - `.` represents the current directory and `..` represents its parent.
 - Files beginning with `.` are hidden by default.
 - Users are identified by UIDs and belong to primary and supplementary groups.
