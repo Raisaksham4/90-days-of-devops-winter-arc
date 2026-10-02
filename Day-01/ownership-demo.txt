@@ -1,0 +1,1 @@
+mode of 'Day-01/ownership-demo.txt' changed from 0640 (rw-r-----) to 0740 (rwxr-----)

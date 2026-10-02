@@ -1,0 +1,6 @@
+Printing details of User using id and group membership using groups ---
+saksham adm cdrom sudo dip plugdev users docker
+uid=1000(saksham) gid=1000(saksham) groups=1000(saksham),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),1001(docker)
+
+
+saksham:x:1000:1000::/home/saksham:/bin/bash
