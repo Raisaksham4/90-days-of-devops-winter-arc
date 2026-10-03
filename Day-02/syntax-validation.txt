@@ -1,1 +1,6 @@
-Fail: scripts/*.sh
+PASS: scripts/backup_directory.sh
+PASS: scripts/disk_check.sh
+PASS: scripts/health_report.sh
+PASS: scripts/service_check.sh
+PASS: scripts/system-summary.sh
+PASS: scripts/user_input_script.sh
