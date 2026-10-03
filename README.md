@@ -49,9 +49,12 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 ## Daily Progress
 
+**Progress:** 2/90 days completed
+
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
-| 1 | Linux foundations | Completed | [Day-01](./Day-01/) |
+| 1 | Linux foundations | ✅ Completed | [Day-01](./Day-01/) |
+| 2 | Bash scripting fundamentals | ✅ Completed | [Day-02](./Day-02/) |
 
 ## Working Principles
 
