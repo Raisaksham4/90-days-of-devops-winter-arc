@@ -1,0 +1,18 @@
+=== ENABLING FIREWALL ===
+Firewall is active and enabled on system startup
+
+=== FIREWALL STATUS ===
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp (OpenSSH)           ALLOW IN    Anywhere                  
+22/tcp (OpenSSH (v6))      ALLOW IN    Anywhere (v6)             
+
+
+=== SERVICE STATE ===
+enabled
+active

@@ -1,0 +1,42 @@
+========== FINAL HARDENING VERIFICATION ==========
+
+=== USERS AND GROUPS ===
+PASS: devopsadmin exists
+PASS: appsvc service account exists
+PASS: devopsadmin belongs to appops
+PASS: appsvc belongs to appops
+PASS: appsvc uses the nologin shell
+
+=== SUDO POLICY ===
+PASS: devopsadmin sudoers syntax is valid
+PASS: allowed SSH validation command works
+PASS: command outside the sudo policy was refused
+
+=== APPLICATION DIRECTORY ===
+PASS: /opt/devops-app has mode 2770 and correct ownership
+PASS: appsvc can write to the application directory
+PASS: devopsadmin can write through appops membership
+PASS: unauthorized user was denied
+
+=== SSH HARDENING ===
+PASS: SSH configuration syntax is valid
+PASS: SSH setting: permitrootlogin no
+PASS: SSH setting: pubkeyauthentication yes
+PASS: SSH setting: passwordauthentication no
+PASS: SSH setting: kbdinteractiveauthentication no
+PASS: SSH setting: permitemptypasswords no
+PASS: SSH setting: maxauthtries 3
+PASS: SSH setting: x11forwarding no
+PASS: SSH setting: allowagentforwarding no
+PASS: SSH setting: allowtcpforwarding no
+PASS: SSH setting: allowusers devopsadmin
+
+=== FIREWALL AND LISTENER ===
+PASS: UFW is active
+PASS: UFW allows SSH
+PASS: SSH is listening on TCP port 22
+
+========== VERIFICATION SUMMARY ==========
+Passed: 26
+Failed: 0
+RESULT: HARDENING VERIFICATION PASSED

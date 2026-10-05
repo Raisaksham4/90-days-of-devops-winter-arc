@@ -1,0 +1,3 @@
+Cmnd_Alias SSH_MAINTENANCE = /usr/bin/systemctl status ssh, /usr/bin/systemctl restart ssh, /usr/sbin/sshd -t, /usr/bin/journalctl -u ssh --no-pager
+
+devopsadmin ALL=(root) NOPASSWD: SSH_MAINTENANCE

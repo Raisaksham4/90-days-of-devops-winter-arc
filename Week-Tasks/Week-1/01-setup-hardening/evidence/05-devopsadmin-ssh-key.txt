@@ -1,0 +1,8 @@
+=== SSH DIRECTORY ===
+drwx------ 700 devopsadmin:devopsadmin /home/devopsadmin/.ssh
+=== AUTHORIZED KEYS FILE ===
+-rw------- 600 devopsadmin:devopsadmin /home/devopsadmin/.ssh/authorized_keys
+=== KEY COUNT ===
+1 /home/devopsadmin/.ssh/authorized_keys
+=== PUBLIC KEY FINGERPRINT ===
+256 SHA256:7j4XuF01Uq8JIEW1Eqjf3ZKPWZm72MW6NnQs8r6Vhfo devopsadmin@week1-hardening (ED25519)

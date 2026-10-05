@@ -1,0 +1,8 @@
+=== SSH CONFIGURATION VALIDATION ===
+PASS: SSH configuration syntax is valid
+
+=== FINAL ALLOWED USERS ===
+allowusers devopsadmin
+
+=== RESTARTING SSH ===
+active

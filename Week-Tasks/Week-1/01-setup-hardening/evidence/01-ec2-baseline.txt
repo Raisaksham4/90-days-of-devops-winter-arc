@@ -1,0 +1,37 @@
+=== CURRENT USER ===
+ubuntu
+=== HOSTNAME ===
+ip-172-31-0-222
+=== OPERATING SYSTEM ===
+PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+=== INIT SYSTEM ===
+systemd
+=== SYSTEMD STATE ===
+running
+=== NETWORK INTERFACES ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens5             UP             172.31.0.222/20 metric 100 fe80::8ff:e7ff:fe8d:fea3/64 
+=== SSH SERVICE ===
+disabled
+active
+=== SSH LISTENER ===
+LISTEN 0      4096         0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=1005,fd=3),("systemd",pid=1,fd=209))
+LISTEN 0      4096            [::]:22           [::]:*    users:(("sshd",pid=1005,fd=4),("systemd",pid=1,fd=210))
+=== CURRENT IDENTITY ===
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),24(cdrom),27(sudo),30(dip),102(lxd)
+=== CURRENT SUDO ACCESS ===
+User ubuntu may run the following commands on ip-172-31-0-222:
+    (ALL : ALL) ALL
+    (ALL) NOPASSWD: ALL

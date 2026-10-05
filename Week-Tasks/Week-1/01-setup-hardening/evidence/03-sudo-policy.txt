@@ -1,0 +1,7 @@
+=== SUDOERS SYNTAX ===
+/etc/sudoers.d/devopsadmin: parsed OK
+=== FILE PERMISSIONS ===
+-rw-r----- 640 root:root /etc/sudoers.d/devopsadmin
+=== DEVOPSADMIN SUDO RULES ===
+User devopsadmin may run the following commands on ip-172-31-0-222:
+    (root) NOPASSWD: /usr/bin/systemctl status ssh, /usr/bin/systemctl restart ssh, /usr/sbin/sshd -t, /usr/bin/journalctl -u ssh --no-pager

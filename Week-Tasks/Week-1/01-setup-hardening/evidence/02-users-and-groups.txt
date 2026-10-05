@@ -1,0 +1,10 @@
+=== ADMIN USER ===
+devopsadmin:x:1001:1002::/home/devopsadmin:/bin/bash
+uid=1001(devopsadmin) gid=1002(devopsadmin) groups=1002(devopsadmin),1001(appops)
+devopsadmin L 2026-10-05 0 99999 7 -1
+=== SERVICE USER ===
+appsvc:x:999:986::/opt/devops-app:/usr/sbin/nologin
+uid=999(appsvc) gid=986(appsvc) groups=986(appsvc),1001(appops)
+appsvc L 2026-10-05 -1 -1 -1 -1
+=== APPLICATION GROUP ===
+appops:x:1001:devopsadmin,appsvc

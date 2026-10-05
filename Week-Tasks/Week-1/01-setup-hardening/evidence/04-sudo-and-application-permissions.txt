@@ -1,0 +1,23 @@
+=== TESTING LEAST-PRIVILEGE SUDO ===
+PASS: devopsadmin can validate SSH configuration
+sudo: I'm sorry devopsadmin. I'm afraid I can't do that
+PASS: command outside the policy was refused
+
+=== CREATING APPLICATION DIRECTORY ===
+Created /opt/devops-app
+
+=== TESTING AUTHORIZED ACCESS ===
+PASS: appsvc created a file
+PASS: devopsadmin created a file through appops membership
+
+=== TESTING UNAUTHORIZED ACCESS ===
+touch: setting times of '/opt/devops-app/unauthorized.txt': Permission denied
+PASS: unauthorized user was denied
+
+=== DIRECTORY PERMISSIONS ===
+drwxrws--- 2770 appsvc:appops /opt/devops-app
+
+=== CREATED FILES ===
+total 0
+-rw-r--r-- 1 devopsadmin appops 0 Oct  5 14:36 admin-created.txt
+-rw-r--r-- 1 appsvc      appops 0 Oct  5 14:36 service-created.txt
