@@ -49,13 +49,14 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 ## Daily Progress
 
-**Progress:** 3/90 days completed
+**Progress:** 4/90 days completed
 
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
 | 1 | Linux foundations | ✅ Completed | [Day-01](./Day-01/) |
 | 2 | Bash scripting fundamentals | ✅ Completed | [Day-02](./Day-02/) |
 | 3 | Networking fundamentals and Linux revision | ✅ Completed | [Day-03](./Day-03/) |
+| 4 | Linux processes, permissions and server hardening | ✅ Completed | [Day-04](./Day-04/) · [Week 1 hardening task](./Week-Tasks/Week-1/01-setup-hardening/) |
 
 ## Working Principles
 
