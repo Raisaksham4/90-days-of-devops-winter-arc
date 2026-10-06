@@ -61,7 +61,7 @@ The reusable configuration is in [nginx/day5.conf](nginx/day5.conf). The applica
 
 ## 4. Local hostname
 
-I added `127.0.0.1 day5.local` to `/etc/hosts`. `getent hosts day5.local` returned `127.0.0.1), and `curl -I http://day5.local` returned `200 OK`. `/etc/hosts` is a local mapping on this machine; it does not create a public DNS record.
+I added `127.0.0.1 day5.local` to `/etc/hosts`. `getent hosts day5.local` returned `127.0.0.1`, and `curl -I http://day5.local` returned `200 OK`. `/etc/hosts` is a local mapping on this machine; it does not create a public DNS record.
 
 ## 5. Deliberate 502 and recovery
 
@@ -88,4 +88,14 @@ If the application ran on a separate server, `proxy_pass` would target that serv
 
 ## Evidence
 
-The terminal screenshots from this lab show the DNS results, HTTP and TLS inspection, Nginx status, the application and proxy, the 502 log, and the final recovery. The handwritten study pages are shared only with the LinkedIn post.
+The terminal screenshots below capture the DNS result, a successful request through the proxy, the 502 response and error log, and the restored 200 response. The handwritten study pages are shared only with the LinkedIn post.
+
+![DNS lookup and system resolution](screenshots/01-dns-resolution.png)
+
+![Successful reverse proxy request](screenshots/02-reverse-proxy-success.png)
+
+![502 Bad Gateway after stopping the app](screenshots/03-502-bad-gateway.png)
+
+![Nginx upstream connection refused log](screenshots/03-upstream-connection-refused.png)
+
+![Port 3000 and 200 OK after recovery](screenshots/04-recovery-200.png)
