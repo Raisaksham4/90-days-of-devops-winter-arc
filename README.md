@@ -49,7 +49,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 ## Daily Progress
 
-**Progress:** 5/90 days completed
+**Progress:** 6/90 days completed
 
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
@@ -58,6 +58,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 | 3 | Networking fundamentals and Linux revision | ✅ Completed | [Day-03](./Day-03/) |
 | 4 | Linux processes, permissions and server hardening | ✅ Completed | [Day-04](./Day-04/) · [Week 1 hardening task](./Week-Tasks/Week-1/01-setup-hardening/) |
 | 5 | DNS, HTTP/HTTPS, Nginx reverse proxy and 502 troubleshooting | ✅ Completed | [Day-05](./Day-05/) |
+| 6 | Storage, monitoring and production debugging | ✅ Completed | [Day-06](./Day-06/) · [Incident report](./Day-06/incident-report.md) |
 
 ## Working Principles
 
