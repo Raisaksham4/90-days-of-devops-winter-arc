@@ -1,0 +1,96 @@
+========== SYSTEM UPTIME ==========
+ 15:43:08 up 1 day, 9 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+========== MEMORY USAGE ==========
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       1.1Gi       5.8Gi       4.0Mi       920Mi       6.5Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+========== TOP MEMORY PROCESSES ==========
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        319  0.9  6.5 984612 524224 ?       Ssl  Oct06  13:02 /usr/sbin/mysqld
+root         340  0.0  1.0 2352672 82660 ?       Ssl  Oct06   0:15 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         246  0.1  0.5 2239136 44808 ?       Ssl  Oct06   2:21 /usr/bin/containerd
+root         240  0.0  0.4 123476 32700 ?        Ssl  Oct06   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         175  0.0  0.3  44112 29800 ?        Ss   Oct06   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          47  0.0  0.2  50404 17500 ?        S<s  Oct06   0:02 /usr/lib/systemd/systemd-journald
+root           1  0.0  0.1  24432 15632 ?        Ss   Oct06   0:02 /sbin/init
+systemd+      84  0.0  0.1  22428 14476 ?        Ss   Oct06   0:00 /usr/lib/systemd/systemd-resolved
+saksham      703  0.0  0.1  22524 13408 ?        Ss   Oct06   0:00 /usr/lib/systemd/systemd --user
+root          91  0.0  0.1  35428 12424 ?        Ss   Oct06   0:03 /usr/lib/systemd/systemd-udevd
+
+========== TOP CPU PROCESSES ==========
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+mysql        319  0.9  6.5 984612 524224 ?       Ssl  Oct06  13:02 /usr/sbin/mysqld
+root         246  0.1  0.5 2239136 44808 ?       Ssl  Oct06   2:21 /usr/bin/containerd
+root         340  0.0  1.0 2352672 82660 ?       Ssl  Oct06   0:15 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root          91  0.0  0.1  35428 12424 ?        Ss   Oct06   0:03 /usr/lib/systemd/systemd-udevd
+polkitd     3971  0.0  0.1 306448  8620 ?        Ssl  10:54   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root           1  0.0  0.1  24432 15632 ?        Ss   Oct06   0:02 /sbin/init
+root          47  0.0  0.2  50404 17500 ?        S<s  Oct06   0:02 /usr/lib/systemd/systemd-journald
+saksham     4976  0.0  0.0   6268  5696 pts/2    Ss+  14:51   0:00 -bash
+saksham      659  0.0  0.0   6496  5920 pts/0    Ss   Oct06   0:01 -bash
+root         658  0.0  0.0   3200  1248 ?        S    Oct06   0:00 /init
+
+========== LISTENING TCP SERVICES ==========
+State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess
+LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*          
+LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*          
+LISTEN 0      511           0.0.0.0:80         0.0.0.0:*          
+LISTEN 0      4096        127.0.0.1:42169      0.0.0.0:*          
+LISTEN 0      70          127.0.0.1:33060      0.0.0.0:*          
+LISTEN 0      151         127.0.0.1:3306       0.0.0.0:*          
+LISTEN 0      1000   10.255.255.254:53         0.0.0.0:*          
+LISTEN 0      511              [::]:80            [::]:*          
+
+========== LISTENING UDP SERVICES ==========
+State  Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+UNCONN 0      0           127.0.0.1:323       0.0.0.0:*          
+UNCONN 0      0           127.0.0.1:323       0.0.0.0:*          
+UNCONN 0      0          127.0.0.54:53        0.0.0.0:*          
+UNCONN 0      0       127.0.0.53%lo:53        0.0.0.0:*          
+UNCONN 0      0      10.255.255.254:53        0.0.0.0:*          
+UNCONN 0      0               [::1]:323          [::]:*          
+UNCONN 0      0               [::1]:323          [::]:*          
+
+========== RUNNING SYSTEM SERVICES ==========
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION
+  chrony.service              loaded active running chrony, an NTP client/server
+  containerd.service          loaded active running containerd container runtime
+  cron.service                loaded active running Regular background program processing daemon
+  dbus.service                loaded active running D-Bus System Message Bus
+  docker.service              loaded active running Docker Application Container Engine
+  getty@tty1.service          loaded active running Getty on tty1
+  mysql.service               loaded active running MySQL Community Server
+  networkd-dispatcher.service loaded active running Dispatcher daemon for systemd-networkd
+  nginx.service               loaded active running A high performance web server and a reverse proxy server
+  polkit.service              loaded active running Authorization Manager
+  rsyslog.service             loaded active running System Logging Service
+  systemd-journald.service    loaded active running Journal Service
+  systemd-logind.service      loaded active running User Login Management
+  systemd-resolved.service    loaded active running Network Name Resolution
+  systemd-udevd.service       loaded active running Rule-based Manager for Device Events and Files
+  unattended-upgrades.service loaded active running Unattended Upgrades Shutdown
+  user@1000.service           loaded active running User Manager for UID 1000
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+17 loaded units listed.
+
+========== CURRENT BOOT ERRORS ==========
+Oct 06 13:26:35 GalaxyBook4 kernel: PCI: Fatal: No config space access function found
+Oct 06 13:26:35 GalaxyBook4 kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Oct 06 13:26:35 GalaxyBook4 kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Oct 06 13:26:35 GalaxyBook4 kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Oct 06 13:26:35 GalaxyBook4 kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Oct 06 13:26:35 GalaxyBook4 kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Oct 06 13:27:22 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: connect() failed: 101
+Oct 06 17:39:35 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: getaddrinfo() failed: -5
+Oct 06 18:03:50 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: connect() failed: 101
+Oct 06 21:12:23 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: connect() failed: 101
+Oct 06 23:00:19 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: connect() failed: 101
+Oct 07 10:32:49 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: getaddrinfo() failed: -5
+Oct 07 10:32:55 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: getaddrinfo() failed: -5
+Oct 07 15:06:00 GalaxyBook4 unknown: WSL (161) ERROR: CheckConnection: getaddrinfo() failed: -5

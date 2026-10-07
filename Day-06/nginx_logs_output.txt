@@ -1,0 +1,51 @@
+============Header Request================
+
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0   3580   0      0   0      0      0      0                              0  0   3580   0      0   0      0      0      0                              0  0   3580   0      0   0      0      0      0                              0
+HTTP/1.1 200 OK
+Server: nginx/1.28.3 (Ubuntu)
+Date: Wed, 07 Oct 2026 15:54:43 GMT
+Content-Type: text/html
+Content-Length: 3580
+Last-Modified: Fri, 02 Oct 2026 13:05:41 GMT
+Connection: keep-alive
+ETag: "6abfac25-dfc"
+Accept-Ranges: bytes
+
+
+==========Checking Stauts of Nginx=============
+
+active
+
+=============Checking if port 80 is Listening===========
+
+tcp   LISTEN 0      511           0.0.0.0:80         0.0.0.0:*          
+tcp   LISTEN 0      511              [::]:80            [::]:*          
+
+=============Checking logs of Nginx======================
+
+Sep 23 11:07:52 GalaxyBook4 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Sep 23 11:07:52 GalaxyBook4 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Sep 23 11:25:59 GalaxyBook4 systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Sep 23 11:25:59 GalaxyBook4 systemd[1]: nginx.service: Deactivated successfully.
+Sep 23 11:25:59 GalaxyBook4 systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+-- Boot bc376323dcd6400183a26416f81e9ba5 --
+Oct 02 12:09:55 GalaxyBook4 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Oct 02 12:09:55 GalaxyBook4 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Oct 02 13:02:12 GalaxyBook4 systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Oct 02 13:02:12 GalaxyBook4 systemd[1]: nginx.service: Deactivated successfully.
+Oct 02 13:02:12 GalaxyBook4 systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Oct 02 13:06:39 GalaxyBook4 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Oct 02 13:06:39 GalaxyBook4 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Oct 03 22:21:11 GalaxyBook4 systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Oct 03 22:21:11 GalaxyBook4 systemd[1]: nginx.service: Deactivated successfully.
+Oct 03 22:21:11 GalaxyBook4 systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+-- Boot ab7af6de80914c41adc2d10c921ca4ae --
+Oct 06 15:18:04 GalaxyBook4 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Oct 06 15:18:04 GalaxyBook4 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Oct 06 15:22:56 GalaxyBook4 systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Oct 06 15:22:56 GalaxyBook4 nginx[2052]: 2026/10/06 15:22:56 [notice] 2052#2052: signal process started
+Oct 06 15:22:56 GalaxyBook4 systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+
+------------------------------------------------------------

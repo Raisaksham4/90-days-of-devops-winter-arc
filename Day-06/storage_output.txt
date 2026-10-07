@@ -1,0 +1,67 @@
+================Showing Blocks===============
+NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda    8:0    0 356.9M  1 disk 
+sdb    8:16   0 159.4M  1 disk 
+sdc    8:32   0     2G  0 disk [SWAP]
+sdd    8:48   0     1T  0 disk /var/lib/docker
+                               /mnt/wslg/distro
+                               /
+
+---------------------------------------------
+                                              
+============Total Used and Available File System Space===============
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         360G  242G  119G  68% /usr/lib/wsl/drivers
+/dev/sdd       1007G  8.9G  947G   1% /
+none            3.9G   84K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.8M  3.8G   1% /init
+none            3.9G  580K  3.8G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             360G  242G  119G  68% /mnt/c
+D:\             100G   16G   85G  16% /mnt/d
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G  456K  3.8G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           779M   12K  779M   1% /run/user/1000
+
+----------------------------------------------------------------------
+
+==============Space used by current Directory with 1 depth=================
+4.6G	/home/saksham
+1.9G	/home/saksham/.vscode-server
+1.7G	/home/saksham/terraform
+494M	/home/saksham/Antigravity-x64
+473M	/home/saksham/.local
+83M	/home/saksham/projects
+38M	/home/saksham/.gemini
+22M	/home/saksham/.cache
+3.3M	/home/saksham/90-days-of-devops-winter-arc
+1.5M	/home/saksham/learn-docker
+592K	/home/saksham/bash-scripting-for-DevOps
+280K	/home/saksham/.dotnet
+200K	/home/saksham/.docker
+52K	/home/saksham/.vscode-remote-containers
+48K	/home/saksham/.copilot
+44K	/home/saksham/.config
+40K	/home/saksham/.aws
+32K	/home/saksham/.ssh
+28K	/home/saksham/DevOps
+12K	/home/saksham/.terraform.d
+8.0K	/home/saksham/day5-app
+4.0K	/home/saksham/Antigravity
+4.0K	/home/saksham/.landscape
+
+---------------------------------------------------------------------------
+=======================Memory Usage=========================================
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       1.1Gi       6.2Gi       4.0Mi       508Mi       6.5Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+-----------------------------------------------------------------------------
