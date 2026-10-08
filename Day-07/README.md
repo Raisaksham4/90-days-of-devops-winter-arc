@@ -101,4 +101,4 @@ This is a learning API with in-memory storage, fixed `/notes/1` update/delete ha
 
 ## Evidence
 
-[Day 7 Notion notes and all 22 screenshots](https://www.notion.so/3f305eedb206817ab6aded4d2e565f59). The LinkedIn draft uses five screenshots covering API results, TLS inspection and the pull request workflow.
+[Day 7 Notion notes and all screenshots](https://www.notion.so/3f305eedb206817ab6aded4d2e565f59).
