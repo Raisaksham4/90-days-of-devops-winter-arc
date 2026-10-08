@@ -24,3 +24,10 @@ curl -i -X PUT http://127.0.0.1:8080/notes/1 \
   -H "Content-Type: application/json" \
   -d '{"text":"Updated with PUT"}'
 curl -i -X DELETE http://127.0.0.1:8080/notes/1
+
+
+## TLS certificate check
+
+```bash
+openssl s_client -connect example.com:443 -servername example.com </dev/null 2>/dev/null \
+  | openssl x509 -noout -subject -issuer -dates
