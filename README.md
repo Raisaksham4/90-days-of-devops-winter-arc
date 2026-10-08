@@ -59,6 +59,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 | 4 | Linux processes, permissions and server hardening | ✅ Completed | [Day-04](./Day-04/) · [Week 1 hardening task](./Week-Tasks/Week-1/01-setup-hardening/) |
 | 5 | DNS, HTTP/HTTPS, Nginx reverse proxy and 502 troubleshooting | ✅ Completed | [Day-05](./Day-05/) |
 | 6 | Storage, monitoring and production debugging | ✅ Completed | [Day-06](./Day-06/) · [Incident report](./Day-06/incident-report.md) |
+| 7 | HTTP/HTTPS, TLS certificate inspection and Git/GitHub workflow | ✅ Completed | [Day-07](./Day-07/) |
 
 ## Working Principles
 
