@@ -49,7 +49,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 ## Daily Progress
 
-**Progress:** 6/90 days completed
+**Progress:** 7/90 days completed
 
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
