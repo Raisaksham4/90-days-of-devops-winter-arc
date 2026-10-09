@@ -33,8 +33,8 @@ Folders are created as the challenge progresses. Every daily folder may include:
 | Days | Focus | Expected output |
 |---|---|---|
 | 1-7 | Linux, networking, Bash, and Git | Hardened Linux server and automated deployment |
-| 8-14 | AWS fundamentals | Highly available AWS application |
-| 15-21 | Docker | Containerized application |
+| 8-14 | Docker | Containerized application |
+| 15-21 | AWS fundamentals | Highly available AWS application |
 | 22-30 | CI/CD | End-to-end AWS CI/CD pipeline |
 | 31-44 | Kubernetes | Application deployment and troubleshooting lab |
 | 45-60 | EKS, Terraform, and GitOps | Production-style EKS GitOps platform |
@@ -49,7 +49,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 ## Daily Progress
 
-**Progress:** 7/90 days completed
+**Progress:** 8/90 days completed
 
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
@@ -60,6 +60,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 | 5 | DNS, HTTP/HTTPS, Nginx reverse proxy and 502 troubleshooting | ✅ Completed | [Day-05](./Day-05/) |
 | 6 | Storage, monitoring and production debugging | ✅ Completed | [Day-06](./Day-06/) · [Incident report](./Day-06/incident-report.md) |
 | 7 | HTTP/HTTPS, TLS certificate inspection and Git/GitHub workflow | ✅ Completed | [Day-07](./Day-07/) |
+| 8 | Docker images, containers and port troubleshooting | ✅ Completed | [Day-08](./Day-08/) |
 
 ## Working Principles
 
