@@ -230,5 +230,6 @@ Before production deployment, I would pin the base image by digest, use `npm ci`
 - `evidence/health-check.png` - root and health endpoint responses
 - `evidence/env-override.png` - runtime environment variable override
 - `evidence/cache-hit.png` - dependency layer reused after a source only change
+- `evidence/cache-miss.png` - dependency layer rebuilt after changing `package.json`
 - `evidence/entrypoint-test.png` - ENTRYPOINT and CMD experiment
 - `evidence/image-inspection.png` - image metadata, history, and CMD override

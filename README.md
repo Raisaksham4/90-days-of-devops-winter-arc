@@ -49,7 +49,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 ## Daily Progress
 
-**Progress:** 8/90 days completed
+**Progress:** 9/90 days completed
 
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
@@ -61,6 +61,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 | 6 | Storage, monitoring and production debugging | ✅ Completed | [Day-06](./Day-06/) · [Incident report](./Day-06/incident-report.md) |
 | 7 | HTTP/HTTPS, TLS certificate inspection and Git/GitHub workflow | ✅ Completed | [Day-07](./Day-07/) |
 | 8 | Docker images, containers and port troubleshooting | ✅ Completed | [Day-08](./Day-08/) |
+| 9 | Dockerfile, layer caching and runtime configuration | ✅ Completed | [Day-09](./Day-09/) |
 
 ## Working Principles
 
