@@ -49,7 +49,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 
 ## Daily Progress
 
-**Progress:** 11/90 days completed
+**Progress:** 12/90 days completed
 
 | Day | Topic | Status | Implementation |
 |---:|---|---|---|
@@ -64,6 +64,7 @@ Folders are created as the challenge progresses. Every daily folder may include:
 | 9 | Dockerfile, layer caching and runtime configuration | ✅ Completed | [Day-09](./Day-09/) |
 | 10 | Multi-stage builds, image optimization and non-root execution | ✅ Completed | [Day-10](./Day-10/) |
 | 11 | Docker storage, bridge networking, DNS and volume backup | ✅ Completed | [Day-11](./Day-11/) |
+| 12 | Docker Compose, service health, networking and persistent data | ✅ Completed | [Day-12](./Day-12/) |
 
 ## Working Principles
 
