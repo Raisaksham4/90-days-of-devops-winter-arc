@@ -13,7 +13,7 @@ def home():
     )
 
 
-@app.get("/health")
+@app.get("/health-broken")
 def health():
     return "ok", 200
 
